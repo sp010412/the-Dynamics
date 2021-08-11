@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/car-accidents-tracker.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+</head>
+
+<body>
+    <div class="allData">
+        <center>
+            <div class="head">
+                <h2>Car Accident Tracker During Lockdown Regulations:</h2>
+            </div>
+        </center>
+        <br>
+        <br>
+        <div class="searchHere">
+            <strong><em><label for="search">Search:</label></em></strong>
+            <input type="text" placeholder="Please search by area eg; Gugulethu or Langa." class="searchBox"
+                id="searchBox" onkeyup="myFunction()">
+        </div>
+        <br>
+        <div class="d" style="text-align:center;">
+            <table id="myTable" class="center" style="width:95%; ">
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Level 1</th>
+                        <th>Level 2</th>
+                        <th>Level 3</th>
+                        <th>Level 4</th>
+                        <th>Level 5</th>
+                    </tr>
+                </thead>
+                <tbody class="tableBody">
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <center><strong><em>
+                    <tcaptions id="tableCaption">(2020 Data detailing car accidents due to alcohol during different
+                        South
+                        African lockdown levels).</tcaptions>
+                </em></strong></center>
+        <br>
+        <br>
+        <div class="myChart">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <div>
+        <!-- <div class="showAccidentAdmin">
+            <a href="#"> Show Accident Admin </a>
+        </div> -->
+        
+        <div class="accidentAdmin">
+            
+            <!-- <a href="#"> Hide Accident Admin </a> -->
+
+            <h1 class="lind" style="color: green">Welcome Back Lindiwe</h1>
+            <form>
+                <div class="formBox">
+                    <label for="">Area</label>
+                    <select onclick="event.stopPropagation()" id="title">
+                        <option>Select your area</option>
+                        <option>Gugulethu</option>
+                        <option>Langa</option>
+                        <option>Khayelitsha</option>
+                </div>
+                <div class="formBox">
+                    </select>
+                    <label for="">Level</label>
+                    <select onclick="event.stopPropagation()" id="yr">
+                        <option>Choose Level</option>
+                        <option value="Level_1">1</option>
+                        <option value="Level_2">2</option>
+                        <option value="Level_3">3</option>
+                        <option value="Level_4">4</option>
+                        <option value="Level_5">5</option>
+                    </select>
+                </div>
+                <div class="formBox">
+                    <label for="yr">Number of car accidents</label>
+                    <input type="number" id="num" onclick="event.stopPropagation()" placeholder="Number of car accidents" />
+                </div>
+                <div class="formBox">
+                    <button id="btn">Click to Add</button>
+                </div>
+                <div id="msg">
+                    <pre></pre>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/area-list.js"></script>
+    <script src="./js/car-accidents.js"></script>
+    <script src="./js/update-accident-levels.js"></script>
+</body>
+
+</html>

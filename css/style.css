@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+body {
+    background: url(https://www.microsoft.com/en-us/research/uploads/prod/2012/12/Theme-ltblue_MLStats_header_12_2019_1920x720.png) no-repeat center/cover;
+}
+
+
+#gsearch{
+width: 45%;
+}
+
+.one{
+    text-align: center;
+}
+
+label{
+    font-size: large;
+}
+
+.searchNav {
+    border: 1px solid white;
+    text-align: center;
+    margin-bottom: 10px;
+    background: white;
+
+}
+
+.fas{
+    font-size:40px;
+    margin-bottom: 3px;
+}
+
+body {
+    /* background: url(https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RhdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80) no-repeat center/cover; */
+    background: lightseagreen;
+    margin: 0;
+}
+.main {
+    color: white;
+    display: flex;
+}
+.main1 {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    font-size:50px
+}
+.one {
+    text-align: center;
+}
+label {
+    font-size: large;
+}
+.header {
+    background: white;
+    margin-right: 25em;
+}
+.header2 {
+    display: flex;
+}
+p {
+    width: 70%;
+    font-size:25px
+}
+.split1 {
+    margin-left: 30px;
+}
+.split {
+    margin-left: -80px;
+}
+.fas {
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+.fab {
+    font-size: 40px
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+.fa-copyright {
+    font-size: 15px
+}
+img {
+    margin-left: 30px;
+}
+.teams {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+   height:48vh;
+}
+.pic1 {
+    border-radius: 50%;
+}
+.pic2 {
+    border-radius: 60%;
+}
+.pic3 {
+    border-radius: 100%;
+}
+.fa-headset {
+    font-size: 30px;
+}
+.fa-google-plus-square {
+    font-size: 30px;
+}
+.icons {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.order{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.button4{
+    width:20%;
+    padding-bottom: 10px;
+   border-radius: 10px;
+   border: 3px greenyellow solid;
+   font-size: 20px;
+
+}
+
+.amanda{
+display:block;
+}
+.owethu{
+    display:block;
+}
+.sane{
+    display:block;
+}
+
+.names{
+    margin-left:85px;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: large;
+}
+
+.about{
+  margin-left: 20em;
+  font-size: 20px;
+}
